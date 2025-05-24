@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofi & Benja</title>
+    <link rel="icon" type="img/png" href="favicon_.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--ONLY MOBILE DEVICES-->
+    <div class="only-mobile-devices">
+        <h1 class="warning">Atención</h1>
+        <p class="need-a-mobile">Necesitas un dispositivo móvil para visualizar el contenido</p>
+        <p class="made-by">Hecho con mucho cariño. Diseñado y Elaborado por <span class="name-mobile">Sofía</span> y <span class="name-mobile">Benjamín Ortiz Meza</span></p>
+    </div>
+    <!--MENU-->
+    <div class="over">
+        <div class="men"></div>
+        <div class="men"></div>
+        <div class="men"></div>
+        <div class="men"></div>
+        <div class="men"></div>
+        <div class="men"></div>
+        <div class="men"></div>
+        <div class="men"></div>
+    </div>
+
+    <div class="overlay-menu">
+        <div class="menu-title">
+            <p></p>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-item-name">
+                <p>Hecho con mucho cariño. Diseñado y Elaborado por Sofía y Benjamín Ortiz Meza</p>
+            </div>
+        </div>
+    </div>
+
+
+<!--LOADER LANDING PAGE-->
+<div class="loader">
+    <div class="overlay">
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+
+    <div class="intro-logo">
+        <div class="word" id="word-1">
+            <h1><span>S</span></h1>
+        </div>
+        <div class="word" id="word-2">
+            <h1>B</h1>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!--<div class="spinner-container">
+        <div class="spinner"></div>
+    </div>-->
+
+    <div class="counter">
+        <div class="count">
+            <div class="digit"><h1>1</h1></div>
+            <div class="digit"><h1>4</h1></div>
+        </div>
+        <div class="count">
+            <div class="digit"><h1>0</h1></div>
+            <div class="digit"><h1>6</h1></div>
+        </div>
+        <div class="count">
+            <div class="digit"><h1>2</h1></div>
+            <div class="digit"><h1>0</h1></div>
+        </div>
+        <div class="count">
+            <div class="digit"><h1>2</h1></div>
+            <div class="digit"><h1>5</h1></div>
+        </div>
+    </div>
+</div>
+
+<!--CONTENEDOR-->
+
+<div class="container">
+    <div class="hero-img">
+        <img src="FondoTarjeta-Final(SinFecha).png" alt="">
+    </div>
+
+    <div class="nav">
+        <div class="logo">
+            <a href="index.html">S&B</a>
+        </div>
+        <div class="toggle-btn">
+            <button class="burger" onclick="this.classList.toggle('active')"></button>
+        </div>
+    </div>
+
+    <!--ENCABEZADO-->
+    <div class="header">
+        <div class="hero-copy">
+            <div class="line aalto">
+                <h1>Te invitamos a</h1>
+            </div>
+            <div class="line dirtyline">
+                <h1>Nuestro</h1>
+            </div>
+            <div class="line xv">
+                <h1><span class="x">X</span><span class="v">V</span></h1>
+            </div>
+        </div>
+        <div class="june"><p class="junio">Junio</p></div>
+        <div class="line date">
+            <p class="day">Sáb</p>
+            <p class="number"><span>14</span></p>
+            <p class="day">9PM</p>
+        </div>
+        <div class="header-icon">
+            <ion-icon name="arrow-down" class="header-row"></ion-icon>
+        </div>
+    </div>
+</div>
+
+<audio id="audio" src="Billie Eilish - BIRDS OF A FEATHER (Official Lyric Video).mp3" type="audio-mpeg"></audio>
+
+<div id="playPauseBtn" class="cta" onclick="playPause()">
+    <div class="cta-label">
+        <p>Haz Click para &#9658; Reproducir Música</p>
+    </div>
+    <div class="cta-icon">
+        <ion-icon class="musical" name="musical-notes-outline"></ion-icon>
+    </div>
+</div>
+
+
+<!--WEBSITE CONTENT-->
+
+    <section class="whitespace"></section>
+    <section class="pinned">
+        <div class="text">
+            <p>Los momentos felices de la vida se vuelven aún más maravillosos cuando tenemos la dicha de compartirlos con los familiares y amigos más queridos. Vos estás entre ellos, por eso te invitamos a festejar con</p>
+        </div>
+        <div class="pinned-text">
+            <h2>NOSOTROS</h2>
+        </div>
+    </section>
+    <section class="about">
+        <div class="about-copy">
+            <p class="reveal-type">Seguí deslizando</p>
+            <div class="reveal-ion">
+                <ion-icon name="arrow-down" class="revelacion"></ion-icon>
+                <div class="arrow-space"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--CUENTA REGRESIVA-->
+    <div class="countdown-container">
+        <div class="cuenta-regresiva">
+            <h1 class="reveal-text">Faltan...</h1>
+        <p class="back"></p>
+        <div class="countdown">
+            <div>
+                <p id="days">35</p>
+                <span>días</span>
+            </div>
+            <div>
+                <p id="hours">23</p>
+                <span>horas</span>
+            </div>
+            <div>
+                <p id="min">50</p>
+                <span>min.</span>
+            </div>
+            <div>
+                <p id="sec">50</p>
+                <span>seg.</span>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <section class="itinerario">
+        <div class="itinerario-copy">
+            <div class="location">
+                <div class="location-copy">
+                    <div class="location-icon">
+                        <img class="location-img" src="logo-location(centrado).png" alt="">
+                    </div>
+                    <h2 class="h2 location-title reveal-text">Ubicación</h2>
+                    <div class="location-text">
+                        <p class="Isabella">La Isabella</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a class="location-link" href="https://maps.app.goo.gl/MeETBwc6JZFcX1hs9?g_st=com.google.maps.preview.copy" target="_blank">
+    <div class="location-btn">
+                        <!--<a class="location-link" href="https://maps.app.goo.gl/MeETBwc6JZFcX1hs9?g_st=com.google.maps.preview.copy" target="_blank">-->
+                            <div class="button-location"><p>Salón de Eventos</p></div>
+                        <!--</a>-->
+                    </div>
+    </a>
+
+    <a href="https://www.google.com/maps/place/25%C2%B019'03.5%22S+57%C2%B035'59.2%22W/@-25.3176256,-57.6023618,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-25.3176256!4d-57.5997869?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+
+        <div class="location-btn location-btn-2">
+                        <!--<a class="location-link" href="https://maps.app.goo.gl/MeETBwc6JZFcX1hs9?g_st=com.google.maps.preview.copy" target="_blank">-->
+                            <div class="button-location location-2"><p>Estacionamiento</p></div>
+                        <!--</a>-->
+                    </div>
+    </a>
+
+    </div>
+    <section class="itinerario">
+    <div class="clothes">
+                <div class="clothes-copy">
+                    <div class="clothes-icon">
+                        <img class="clothes-img" src="logo-clothes.png" alt="">
+                    </div>
+                    <h2 class="h2 clothes-title reveal-text">Tenida</h2>
+                    <div class="clothes-text">
+                        <p>Elegante</p>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <a class="clothes-link" href="https://es.pinterest.com/search/pins/?q=elegante&rs=typed" target="_blank">
+    <div class="clothes-btn">
+                        <!--<a class="clothes-link" href="https://es.pinterest.com/search/pins/?q=elegante&rs=typed" target="_blank">-->
+                            <div class="button-clothes">
+                                <p>Referencia</p>
+                            </div>
+                        <!--</a>-->
+                    </div>
+                </div>
+    </a>
+
+
+    <section class="itinerario">
+        <div class="gift">
+                <div class="gift-copy">
+                    <div class="gift-icon">
+                        <img src="logo-gifts(redondeado).png" alt="" class="gift-img">
+                    </div>
+                    <h2 class="h2 gift-title reveal-text">Regalo</h2>
+                    <div class="gift-text">
+                        <p>El mejor regalo será tu presencia, pero si además nos querés hacer un presente, tendremos una cuenta disponible para depósitos</p>
+                    </div>
+                    <div class="gift-col-container-cont">
+                        <div class="gift-col-cont"><h4>Alias</h4><p class="account-cont">Cel. 0981894467</p></div>
+                        <div class="gift-col-cont"><h4>Ref.</h4><p class="account-cont leti-meza">Leticia Meza</p></div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="itinerario">
+        <div class="asistence">
+                <div class="asistence-copy">
+                    <div class="asistence-icon">
+                        <img class="asistence-img" src="logo-asistence.png" alt="">
+                    </div>
+                    <h2 class="h2 asistence-title reveal-text-asistence">Asistencia</h2>
+                    <div class="asistence-text">
+                        <p>Gracias por ser parte de este gran día, para ayudarnos en la planificación les pedimos amablemente que confirmen su asistencia antes del 4 de junio</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <a class="asistence-link" href="https://wa.link/1usdip" target="_blank">
+    <div class="asistence-btn location-btn">
+                            <div class="button-location"><p>Confirmar Asistencia</p></div>
+                    </div>
+    </a>
+
+    <!--
+            <div class="clothes">
+                <div class="clothes-copy">
+                    <div class="clothes-icon">
+                        <img class="clothes-img" src="Coding/Video/logo-clothes.png" alt="">
+                    </div>
+                    <h2 class="h2 clothes-title">Tenida</h2>
+                    <div class="clothes-text">
+                        <p>Elegante</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gift">
+                <div class="gift-copy">
+                    <div class="gift-icon">
+                        <img src="Coding/Video/logo-gifts(redondeado).png" alt="" class="gift-img">
+                    </div>
+                    <h2 class="h2 gift-title">Regalo</h2>
+                    <div class="gift-text">
+                        <p>El mejor regalo será tu presencia, pero si además nos queres hacer un presente, tendremos una cuenta disponible para depósitos.</p>
+                    </div>
+                    <div class="gift-col-container">
+                        <div class="gift-col"><h4>Alias</h4><p>0981894467</p></div>
+                        <div class="gift-col"><h4>Ref.</h4><p>Leticia Meza</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="asistence">
+                <div class="asistence-copy">
+                    <h2 class="h2 asistence-title">Asistencia</h2>
+                    <div class="asistence-text">
+                        <p>Gracias por ser parte de este gran día. Para ayudarnos en la planificación les pedimos amablemente que confirmen su asistencia antes 4 de junio</p>
+                    </div>
+                    <div class="asistence-btn location-btn">
+                        <a class="asistence-link" href="https://wa.link/1usdip">
+                            <div class="button-location"><p>Confirmar Asistencia</p></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        -->
+
+    <video class="LesEsperamos" src="Video-Corto-LesEsperamos.mp4" muted autoplay></video>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CustomEase.min.js" integrity="sha512-4a56NRIrhn/ePBdSSNfwsmL+eZt/uCXEb7s+3B8tg/tDiywDMKb5u2QCdhsYQtEkUMPGE5GUVbZYqgKeRzJ7yQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdn.jsdelivr.net/npm/splitting@1.1.0/dist/splitting.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
